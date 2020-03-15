@@ -1,0 +1,47 @@
+{
+  "name": "baby-cry",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "animejs": "^3.1.0",
+    "antd": "^4.0.1",
+    "cra-template": "1.0.1",
+    "emailjs-com": "^2.4.1",
+    "firebase": "^7.10.0",
+    "mdb": "^0.1.0",
+    "mdbreact": "^4.25.3",
+    "react": "^16.12.0",
+    "react-card-flip": "^1.0.10",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "react-toastify": "^5.5.0",
+    "react-transition-group": "^4.3.0",
+    "recordrtc": "^5.5.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

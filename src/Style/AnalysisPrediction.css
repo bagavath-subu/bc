@@ -1,0 +1,86 @@
+.analysis-para {
+  padding-top: 70px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.funbaby2 {
+  width: 25%;
+  position: absolute;
+  bottom: 182px;
+  left: 38%;
+}
+
+.Cry {
+  width: 45%;
+  position: absolute;
+  bottom: 182px;
+  left: 27%;
+}
+
+button.btn-predict {
+  width: 164px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+button.btn-analysis {
+  width: 200px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .analysis-para {
+    font-size: 20px;
+  }
+  .Cry {
+    width: 65%;
+    position: absolute;
+    bottom: 182px;
+    left: 19%;
+  }
+}
+
+@media(max-width:480px) {
+  .analysis-para {
+    font-size: 15px;
+  }
+  .Cry {
+    width: 90%;
+    position: absolute;
+    bottom: 210px;
+    left: 7%;
+  }
+}
+
+@media (max-width: 320px) {
+  .Cry {
+    width: 90%;
+    position: absolute;
+    bottom: 240px;
+    left: 7%;
+  }
+}
+
+@media (max-width: 760px) {
+  .Cry {
+    width: 90%;
+    position: absolute;
+    bottom: 218px;
+    left: 9%;
+  }
+}
+
+@media (max-width: 320px) {
+  .Cry {
+    width: 90%;
+    position: absolute;
+    bottom: 244px;
+    left: 9%;
+  }
+}

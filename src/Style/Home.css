@@ -1,0 +1,128 @@
+.apppage .gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+}
+
+.apppage .home {
+  background-image: url("https://i.pinimg.com/originals/4c/96/ac/4c96ac502c60ec6089feb2b3179fab7a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.apppage h5 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 400px) {
+  .apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .apppage .animated img {
+    max-height: 35vh;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+  .apppage .home {
+    min-height: 150vh;
+  }
+}
+.home-logo {
+  width: 40px;
+}
+.home-Baby1 {
+  width: 260px;
+  position: relative;
+  left: 60px;
+}
+
+.btn-white {
+  padding: 8px !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) 
+
+{
+  nav.navbar-dark.fixed-top.scrolling-navbar.navbar.navbar-expand-md
+  {
+  background: #287894
+  }
+}
+  @media(max-width:480px)
+  {
+  .home-Baby1 {
+    width: 160px;
+  }
+}
+@media(max-width:390px)
+{
+  .apppage .animated img {
+    max-height: 30vh;
+    transform: translateX(-50%);
+    left: 50%;
+    top:-50px;
+}
+}
+
+@media(max-width:330px)
+{
+  .apppage .animated img {
+    max-height: 25vh;
+    transform: translateX(-50%);
+    left: 50%;
+    top:-50px;
+}
+.home-Baby1 {
+  width: 140px;
+}
+}
+@media  (max-width: 740px) 
+
+{
+  nav.navbar-dark.fixed-top.scrolling-navbar.navbar.navbar-expand-md
+  {
+  background: #287894
+  }
+}
+

@@ -1,0 +1,40 @@
+.funbaby {
+  width: 23%;
+
+}
+button.btn-predict {
+  width: 164px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.baby-button {
+  height: inherit;
+  margin-top: 0;
+
+  /* padding-top: 50px; */
+}
+.bar {
+  height: 20%;
+  width: 15%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 991px) and (min-width: 768px)
+{
+  .funbaby {
+    width: 40%;
+  }
+}
+@media(max-width:480px)
+{
+  .funbaby {
+    width: 100%;
+  }
+}
+@media(max-width:760px)
+{
+  .funbaby {
+    width: 60%;
+  }
+}

@@ -1,0 +1,13 @@
+.StartPage {
+  background: url("../assets/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .StartPage {
+    background: url("../assets/1371466.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+}
