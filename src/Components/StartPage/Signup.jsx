@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from 'mdbreact';
 import '../../Style/Form.css'
 import { database } from '../../config/firebase'
+import { ToastContainer, toast } from 'react-toastify';
 
 const FormPage = (props) => {
     const [signupInfo, setInfo] = useState({});
@@ -12,11 +13,16 @@ const FormPage = (props) => {
     }
 
     const signup = () => {
-        const write = database.ref().push().set({
-            ...signupInfo
-        })
-        alert("Sign up successful !!!")
-        props.change("login")
+        if (signupInfo.name && signupInfo.email && signupInfo.pass) {
+            const write = database.ref().push().set({
+                ...signupInfo
+            })
+            toast.success("Sign up successful !!!")
+            props.change("login")
+        }
+        else {
+            toast.error("Please fill all fields")
+        }
     }
     return (
         <div className="signup">
@@ -88,6 +94,7 @@ const FormPage = (props) => {
                     <MDBCol md='3' />
                 </MDBRow>
             </MDBContainer>
+            <ToastContainer />
         </div>
     );
 };
